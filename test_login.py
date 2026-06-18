@@ -7,4 +7,4 @@ def test_login():
     password = "testpassword"
     expected_output = f"Login successful for user: {username} Please check your email."
 
-    assert login(username, password) == "expected_output"
+    assert login(username, password) == expected_output
